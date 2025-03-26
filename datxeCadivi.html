@@ -1,0 +1,154 @@
+<div class="row sectionBlockLayout text-left" style="box-sizing: border-box; display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+  <div class="container" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; padding: 0px; display: flex; flex-wrap: wrap;"><div class="col-md-12 columnBlockLayout" style="margin: 0px; padding: 0px; box-sizing: border-box; flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"></div></div>
+</div>
+<meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><title>Banner Đặt Xe</title>
+<div class="banner" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; width: 100%; height: 500px; background-image: url('https://blog.travelcarma.com/wp-content/uploads/2017/06/car-rental-banner.jpg'); background-size: cover; background-position-x: center; background-position-y: center; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;">
+  <h1 style="text-align: center; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-size: 32px; font-weight: bold; color: white;">Chào mừng đến với dịch vụ đặt xe nội bộ CADIVI</h1>
+  <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-size: 20px; font-style: italic; color: white;">Nhanh chóng &amp; Tiện lợi</p>
+</div>
+<h2 style="font-weight: bold; text-align: center; margin-top: 15px; margin-right: 0px; margin-bottom: 15px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: rgb(184, 0, 0); font-size: 40px;">Phiếu đặt xe</h2>
+<div class="container" style="box-sizing: border-box; max-width: 100%; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; background-image: initial; background-position-x: initial; background-position-y: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;">
+  <form id="bookingForm" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box;">
+    <div id="successMessage" class="result" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: rgb(31, 222, 31); display: none;">✅ Đặt xe thành công!</div>
+    <label for="title" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-weight: bold; display: block; margin-top: 10px; text-align: left;">Tiêu đề:</label><input type="text" id="title" name="title" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; box-sizing: border-box; width: 100%; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; margin-top: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    <div id="errorTitle" class="error" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: red; font-size: 14px; margin-top: 5px; text-align: left;"></div>
+    <label for="email" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-weight: bold; display: flex; margin-top: 10px; text-align: left;">Email:<div style="font-style: italic;font-size: 12px;font-weight: 100;margin-top: 5px;">Vui lòng kiểm tra kỹ, nếu email sai phiếu sẽ bị hủy</div></label><input type="text" id="email" name="email" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; box-sizing: border-box; width: 100%; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; margin-top: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    <div id="errorEmail" class="error" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: red; font-size: 14px; margin-top: 5px; text-align: left;"></div>
+    <label for="seats" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-weight: bold; display: block; margin-top: 10px; text-align: left;">Số lượng chỗ ngồi:</label><input type="number" id="seats" name="seats" min="1" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; box-sizing: border-box; width: 100%; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; margin-top: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    <div id="errorSeats" class="error" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: red; font-size: 14px; margin-top: 5px; text-align: left;"></div>
+    <label for="location" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-weight: bold; display: block; margin-top: 10px; text-align: left;"> Địa điểm công tác: </label
+    ><select id="location" name="location" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; width: 100%; padding: 8px; margin-top: 5px; border: 1px solid #ccc; border-radius: 5px;height: 5vh;size: 13px;">
+      <option value="0" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box;">-- Chọn địa điểm --</option>
+      <option value="1" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box;">Nhà máy Cadivi Miền Đông - Cơ sở 1</option>
+      <option value="2" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box;">Khác</option>
+    </select>
+    <div id="errorLocation" class="error" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: red; font-size: 14px; margin-top: 5px; text-align: left;"></div>
+    <label for="route" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-weight: bold; display: block; margin-top: 10px; text-align: left;">Lộ trình:</label><input type="text" id="route" name="route" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; box-sizing: border-box; width: 100%; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; margin-top: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    <div id="errorRoute" class="error" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: red; font-size: 14px; margin-top: 5px; text-align: left;"></div>
+    <label for="departure" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-weight: bold; display: block; margin-top: 10px; text-align: left;">Thời gian đi:</label><input type="datetime-local" id="departure" name="departure" style="height: 5vh;size: 13px;margin-right: 0px; margin-bottom: 0px; margin-left: 0px; box-sizing: border-box; width: 100%; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; margin-top: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    <div id="errorDeparture" class="error" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: red; font-size: 14px; margin-top: 5px; text-align: left;"></div>
+    <label for="return" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-weight: bold; display: block; margin-top: 10px; text-align: left;">Thời gian về:</label><input type="datetime-local" id="return" name="return" style="height: 5vh;size: 13px;margin-right: 0px; margin-bottom: 0px; margin-left: 0px; box-sizing: border-box; width: 100%; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; margin-top: 5px; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-bottom-style: solid; border-left-style: solid; border-top-color: rgb(204, 204, 204); border-right-color: rgb(204, 204, 204); border-bottom-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;" />
+    <div id="errorReturn" class="error" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; color: red; font-size: 14px; margin-top: 5px; text-align: left;"></div>
+    <div style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; font-style: italic; font-size: 12px;">Lưu ý : Các phiếu đặt xe phải đặt trước 15h ngày hôm trước, trừ trường hợp đã có trong lịch CĐ</div>
+    <button type="submit" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; display: block; margin: 20px auto; box-sizing: border-box; width: 100px; background-color: red; color: white; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; border-top-width: initial; border-right-width: initial; border-bottom-width: initial; border-left-width: initial; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-top-color: initial; border-right-color: initial; border-bottom-color: initial; border-left-color: initial; border-image-source: initial; border-image-slice: initial; border-image-width: initial; border-image-outset: initial; border-image-repeat: initial; border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px; cursor: pointer; margin-top: 15px;">Đặt xe</button>
+  </form>
+  <div id="loadingScreen" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box; display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); justify-content: center; align-items: center; color: white; font-size: 20px; z-index: 1000;">⏳ Đang xử lý, vui lòng chờ...</div>
+  <input type="hidden" id="user-id" value="id" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; box-sizing: border-box;" />
+</div>
+
+<script>
+
+    document.addEventListener("DOMContentLoaded", function () {
+    var departureInput = document.getElementById("departure");
+    var returnInput = document.getElementById("return");
+
+    departureInput.addEventListener("change", function () {
+        var departureTime = departureInput.value;
+        returnInput.min = departureTime; // Cập nhật min cho return
+    });
+});
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("bookingForm").addEventListener("submit", async function(event) {
+        event.preventDefault();
+        console.log("🚀 Form submitted!");
+
+        document.getElementById("successMessage").style.display = "none";
+        document.getElementById("loadingScreen").style.display = "flex";
+
+        let hasError = false;
+        document.querySelectorAll(".error").forEach(e => e.innerText = "");
+
+        function showError(id, message) {
+            let errorElement = document.getElementById(id);
+            if (errorElement) {
+                errorElement.innerText = "⚠️ " + message;
+                hasError = true;
+            } else {
+                console.error(`Không tìm thấy phần tử có ID: ${id}`);
+            }
+        }
+
+        function validateEmail(email) {
+            const regex = /^[a-zA-Z0-9._%+-]+@cadivi\.vn$/;
+            return regex.test(email);
+        }
+
+        let title = document.getElementById("title").value.trim();
+        let seat = parseInt(document.getElementById("seats").value.trim(), 10);
+        let location = document.getElementById("location").value.trim();
+        let route = document.getElementById("route").value.trim();
+        let departure = document.getElementById("departure").value;
+        let returnTime = document.getElementById("return").value;
+        let email = document.getElementById("email").value;
+
+        if (title === "") showError("errorTitle", "Vui lòng nhập tiêu đề!");
+        if (isNaN(seat) || seat <= 0) showError("errorSeats", "Số chỗ ngồi phải lớn hơn 0!");
+        if (seat > 7) showError("errorSeats", "Số chỗ ngồi phải bé hơn 7!");
+        if (location === "0") showError("errorLocation", "Vui lòng nhập địa điểm!");
+        if (location === "2" && route === "") showError("errorRoute", "Vui lòng nhập lộ trình khi chọn 'Khác'!");
+        if (email === "") {
+            showError("errorEmail", "Vui lòng nhập email");
+        } else if (!validateEmail(email)) {
+            showError("errorEmail", "Vui lòng nhập email của công ty");
+        }
+
+        let now = new Date().toISOString().slice(0, 16);
+        if (departure < now) showError("errorDeparture", "Thời gian đi phải từ hiện tại!");
+        if (returnTime < departure) showError("errorReturn", "Thời gian về phải sau thời gian đi!");
+
+        if (hasError) {
+            document.getElementById("loadingScreen").style.display = "none";
+            return;
+        }
+
+        let formData = {
+            title: title,
+            email: email,
+            seat: seat,
+            location: location,
+            document: route,
+            departure: new Date(departure).toISOString(),
+            returnTime: new Date(returnTime).toISOString(),
+        };
+
+        try {
+            let response = await fetch("https://prod-11.southeastasia.logic.azure.com:443/workflows/9b836226e8344eb7a7ee587684f7eafd/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=EPkQ79-kZzSguJSQ3y_DpXHI99C_zCfEfasz-pI7SP8", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(formData)
+            });
+            console.log("Dữ liệu gửi đi:", JSON.stringify(formData, null, 2));
+
+            if (response.ok) {
+                let data = await response.json();
+                console.log("Phản hồi từ API:", data);
+
+                if (data.gotcar === true) {
+                    document.getElementById("successMessage").style.display = "block";
+                    document.getElementById("bookingForm").reset();
+                    alert("Đặt xe thành công. Vui lòng kiểm tra email xác nhận");
+
+                } else {
+                    alert("Không có xe khả dụng! Vui lòng thử lại.");
+                }
+            } else {
+                alert("Có lỗi xảy ra khi đặt xe!");
+            }
+        } catch (error) {
+            console.error("Lỗi:", error);
+            alert("Lỗi hệ thống! Vui lòng thử lại sau.");
+        }
+
+        document.getElementById("loadingScreen").style.display = "none";
+    });
+});
+
+
+</script>
+
+<div class="row sectionBlockLayout text-left" style="box-sizing: border-box; display: flex; flex-wrap: wrap; margin: 0px; min-height: auto; padding: 8px;">
+  <div class="container" style="box-sizing: border-box; max-width: 100%; margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto; background-image: initial; background-position-x: initial; background-position-y: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: white; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px; padding: 0px; display: flex; flex-wrap: wrap;"><div class="col-md-12 columnBlockLayout" style="margin: 0px; padding: 0px; box-sizing: border-box; flex-grow: 1; display: flex; flex-direction: column; min-width: 250px;"></div></div>
+</div>
+z
